@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LZW - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.4TD\AppData\Local\Temp\RSP80E0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/LZW.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"W:\VC\LZW\source\lzw.c"
+"W:\VC\LZW\source\buffer.c"
+"W:\VC\LZW\source\dictionary.c"
+"W:\VC\LZW\source\main.c"
+"W:\VC\LZW\source\util.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.4TD\AppData\Local\Temp\RSP80E0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.4TD\AppData\Local\Temp\RSP80E1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LZW.pdb" /debug /machine:I386 /out:"Debug/LZW.exe" /pdbtype:sept 
+.\Debug\LZW.obj
+.\Debug\StdAfx.obj
+.\Debug\buffer.obj
+.\Debug\dictionary.obj
+.\Debug\main.obj
+.\Debug\util.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.4TD\AppData\Local\Temp\RSP80E1.tmp"
+<h3>Output Window</h3>
+Compiling...
+lzw.c
+w:\vc\lzw\source\lzw.c(19) : fatal error C1853: 'Debug/LZW.pch' is not a precompiled header file created with this compiler
+buffer.c
+w:\vc\lzw\source\buffer.c(93) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+dictionary.c
+w:\vc\lzw\source\dictionary.c(122) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+main.c
+w:\vc\lzw\source\main.c(19) : fatal error C1853: 'Debug/LZW.pch' is not a precompiled header file created with this compiler
+util.c
+w:\vc\lzw\source\util.c(69) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+LZW.exe - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
